@@ -47,7 +47,7 @@ a:hover {
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
-  --pink-red: #E91E63;
+  --pink-red: #e91e63;
   --light-red: #feedec;
   --green: #2ebb79;
   --crusoe-green: #d39121;
@@ -3178,7 +3178,6 @@ header .left-nav .navbar-nav:before {
   background-color: var(--pink-red);
 }
 
-
 .bg-light-red {
   background-color: var(--light-red);
 }
@@ -5282,8 +5281,8 @@ header .left-nav .navbar-nav:before {
 }
 
 .mb-0px {
-    margin-bottom: 0px !important;
-  }
+  margin-bottom: 0px !important;
+}
 .mb-10px {
   margin-bottom: 10px !important;
 }
@@ -7065,7 +7064,7 @@ header.sticky .navbar.disable-fixed {
 .navbar .navbar-nav .nav-item .nav-link.active,
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item:hover .nav-link {
-  opacity: 0.6;
+  color: var(--pink-red);
 }
 .navbar .navbar-nav .nav-link {
   font-size: 16px;

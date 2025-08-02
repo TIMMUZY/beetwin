@@ -18772,3 +18772,17 @@ footer .footer-navbar .nav-item:last-child a {
   max-height: 55px !important;
 }
 /*# sourceMappingURL=style.min.css.map */
+
+@media screen and (max-width: 767px) {
+  .outside-box-right-40 {
+    margin-right: -10vw;
+    margin-left: -10vw;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .outside-box-right-40 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
